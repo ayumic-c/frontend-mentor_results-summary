@@ -33,6 +33,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 - HTML
 - CSS
+- SCSS
 - Flexbox
 - Gradation
 - Mobile-first workflow
