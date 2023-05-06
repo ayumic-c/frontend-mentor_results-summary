@@ -6,8 +6,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-   - [Mobile version 📱](#mobile-version)
-   - [Desktop version 🖥️](#desktop-version)
+   - [Mobile version](#mobile-version)
+   - [Desktop version](#desktop-version)
   - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
