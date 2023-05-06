@@ -24,8 +24,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Click here](https://your-solution-url.com)
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/results-summary-component-GIVss2mocp)
+- Live Site URL: [Click here](https://ayumic-c.github.io/frontend-mentor_results-summary-component/)
 
 ## My process
 
