@@ -24,8 +24,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://your-solution-url.com)
+- Live Site URL: [Click here](https://your-live-site-url.com)
 
 ## My process
 
