@@ -16,11 +16,11 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 - Mobile version 📱
 
-![results-summary-component_mobile](https://user-images.githubusercontent.com/92932301/236648480-5549a909-31db-45d5-a739-48bf234a3600.png)
+![results-summary-component_mobile](https://user-images.githubusercontent.com/92932301/236672530-cf972139-4fca-4a45-8ca8-8a8f78f1ea8d.png)
 
 - Desktop version 🖥️
 
-![results-summary-component_desktop](https://user-images.githubusercontent.com/92932301/236648502-59a8d641-fc78-4c07-8c9f-29e007f2dbcb.png)
+![results-summary-component_desktop](https://user-images.githubusercontent.com/92932301/236672539-85d1d3d3-f3fe-4ae6-880b-e4d470d07499.png)
 
 ### Links
 
