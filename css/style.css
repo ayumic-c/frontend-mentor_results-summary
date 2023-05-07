@@ -13,10 +13,10 @@ main .container {
   max-width: 480px;
 }
 
-.results-summary-box > div {
+.results-summary-component > div {
   padding: 3.2rem 2.4rem;
 }
-.results-summary-box > div h1 {
+.results-summary-component > div h1 {
   font-size: 20px;
 }
 
@@ -146,29 +146,29 @@ main .container {
   main .container {
     max-width: 720px;
   }
-  .results-summary-box {
+  .results-summary-component {
     display: flex;
     border-radius: 3.2rem;
     box-shadow: 4px 4px 24px rgba(36, 33, 202, 0.1);
   }
-  .results-summary-box > div {
+  .results-summary-component > div {
     width: 50%;
     padding: 4rem;
   }
-  .results-summary-box h1 {
+  .results-summary-component h1 {
     font-size: 28px;
   }
-  .results-summary-box .result {
+  .results-summary-component .result {
     border-radius: 3.2rem;
     justify-content: space-between;
   }
-  .results-summary-box .result .result-point {
+  .results-summary-component .result .result-point {
     width: 70%;
   }
-  .results-summary-box .result .result-point h2 {
+  .results-summary-component .result .result-point h2 {
     font-size: 72px;
   }
-  .results-summary-box .result .result-text h3 {
+  .results-summary-component .result .result-text h3 {
     font-size: 32px;
   }
 }/*# sourceMappingURL=style.css.map */
