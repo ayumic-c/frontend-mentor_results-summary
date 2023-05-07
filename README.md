@@ -14,10 +14,12 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Screenshot
 
-#### Mobile version 📱
+- Mobile version 📱
+
 ![results-summary-component_mobile](https://user-images.githubusercontent.com/92932301/236648480-5549a909-31db-45d5-a739-48bf234a3600.png)
 
-#### Desktop version 🖥️
+- Desktop version 🖥️
+
 ![results-summary-component_desktop](https://user-images.githubusercontent.com/92932301/236648502-59a8d641-fc78-4c07-8c9f-29e007f2dbcb.png)
 
 ### Links
