@@ -1,15 +1,31 @@
 @charset "UTF-8";
+$White: hsl(0, 0%, 100%);
+$PaleBlue: hsl(221, 100%, 96%);
+$LightLavender: hsl(241, 100%, 89%);
+$DarkGrayBlue: hsl(224, 30%, 27%);
+$LightSlateBlue: hsl(252, 100%, 67%);
+$LightRoyalBlue:  hsl(241, 81%, 54%);
+$VioletBlue: hsla(256, 72%, 46%, 1);
+$PersianBlue: hsla(241, 72%, 46%, 0);
+
+$LightRed: hsl(0, 100%, 67%);
+$OrangeyYellow: hsl(39, 100%, 56%);
+$GreenTeal: hsl(166, 100%, 37%);
+$CobaltBlue: hsl(234, 85%, 45%);
 
 body {
   font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 18px;
 }
 
 main {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
 
   .container {
     max-width: 480px;
-    margin: 0 auto;
   }
 }
 
@@ -24,8 +40,8 @@ main {
 }
 
 .result {
-  background: linear-gradient(hsl(252, 100%, 67%),  hsl(241, 81%, 54%));
-  color: hsl(0, 0%, 100%);
+  background: linear-gradient($LightSlateBlue, $LightRoyalBlue);
+  color: $White;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,11 +52,11 @@ main {
   border-bottom-right-radius: 3.2rem;
 
   h1 {
-    color: hsl(241, 100%, 89%);
+    color: $LightLavender;
   }
 
   .result-point {
-    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    background: linear-gradient($VioletBlue, $PersianBlue);
     border-radius: 50%;
     display: flex;
     flex-direction: column;
@@ -54,7 +70,7 @@ main {
     }
 
     p {
-      color: hsl(241, 100%, 89%);
+      color: $LightLavender;
     }
   }
 
@@ -64,7 +80,7 @@ main {
     }
 
     p {
-      color: hsl(241, 100%, 89%);
+      color: $LightLavender;
       padding: 0.8rem 1.6rem 0;
     }
   }
@@ -90,42 +106,42 @@ main {
       }
 
       .summary-point {
-        color: hsl(241, 100%, 89%);
+        color: $LightLavender;
 
         span {
-          color: hsl(224, 30%, 27%);
+          color: $DarkGrayBlue;
         }
       }
 
       &:nth-of-type(1) {
-        background-color: rgba($color: hsl(0, 100%, 67%), $alpha: 0.1);
+        background-color: rgba($color: $LightRed, $alpha: 0.05);
 
         .summary-title {
-          color: hsl(0, 100%, 67%);
+          color: $LightRed;
         }
       }
 
       &:nth-of-type(2) {
-        background-color: rgba($color: hsl(39, 100%, 56%), $alpha: 0.1);
+        background-color: rgba($color: $OrangeyYellow, $alpha: 0.05);
 
         .summary-title {
-          color: hsl(39, 100%, 56%);
+          color: $OrangeyYellow;
         }
       }
 
       &:nth-of-type(3) {
-        background-color: rgba($color: hsl(166, 100%, 37%), $alpha: 0.1);
+        background-color: rgba($color: $GreenTeal, $alpha: 0.05);
 
         .summary-title {
-          color: hsl(166, 100%, 37%);
+          color: $GreenTeal;
         }
       }
 
       &:nth-of-type(4) {
-        background-color: rgba($color: hsl(234, 85%, 45%), $alpha: 0.1);
+        background-color: rgba($color: $CobaltBlue, $alpha: 0.05);
 
         .summary-title {
-          color: hsl(234, 85%, 45%);
+          color: $CobaltBlue;
         }
       }
     }
@@ -136,7 +152,7 @@ main {
     display: block;
     z-index: 0;
     background: transparent;
-    color: hsl(221, 100%, 96%);
+    color: $PaleBlue;
     font-weight: bold;
     text-align: center;
     padding: 1.6rem;
@@ -154,13 +170,13 @@ main {
     }
 
     &::before {
-      background-color: hsl(224, 30%, 27%);
+      background-color: $DarkGrayBlue;
       z-index: -1;
       transition: 0.3s;
     }
 
     &::after {
-      background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+      background: linear-gradient($LightSlateBlue, $LightRoyalBlue);
       z-index: -2;
     }
 
@@ -172,8 +188,6 @@ main {
 
 @media screen and (min-width: 768px) {
   main {
-    display: flex;
-    justify-content: center;
     align-items: center;
 
     .container {
@@ -184,7 +198,7 @@ main {
   .results-summary-box {
     display: flex;
     border-radius: 3.2rem;
-    box-shadow: 4px 4px 24px rgba($color: hsla(241, 72%, 46%, 0), $alpha: 0.1);
+    box-shadow: 4px 4px 24px rgba($color: $PersianBlue, $alpha: 0.1);
 
     & > div {
       width: 50%;
